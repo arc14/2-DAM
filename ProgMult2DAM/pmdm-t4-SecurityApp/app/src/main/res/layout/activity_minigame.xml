@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="0"
+        android:text="¡Consigue 10 para continuar!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/txtPuntuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:layout_below="@id/textView"/>
+
+    <ImageView
+        android:id="@+id/candado"
+        android:layout_width="78dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:layout_weight="0"
+        android:scaleType="centerInside"
+        android:translationX="120dp"
+        app:srcCompat="@drawable/key_lock" />
+
+    <ImageView
+        android:id="@+id/llave"
+        android:layout_width="60dp"
+        android:layout_height="64dp"
+        android:translationY="-60dp"
+        app:srcCompat="@drawable/key_icon" />
+
+
+</RelativeLayout>

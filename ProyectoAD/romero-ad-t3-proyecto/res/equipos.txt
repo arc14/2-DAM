@@ -1,0 +1,8 @@
+eq1,rafas team,sevilla;
+eq2,alejandros team,sevilla;
+eq3,equipo tres,cadiz;
+eq4,equipo cuatro,huelva;
+eq5,equipo cinco,jaen;
+eq6,equipo seis,cordoba;
+eq7,equipo siete,sevilla;
+eq8,equipo ocho,sevilla;

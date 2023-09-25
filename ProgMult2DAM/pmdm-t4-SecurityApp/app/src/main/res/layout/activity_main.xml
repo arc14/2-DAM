@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/layout1">
+
+    <TextView
+        android:id="@+id/txtAcceso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ACCESO RESTRINGIDO"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/segurata"
+        android:layout_width="310dp"
+        android:layout_height="491dp"
+
+        app:srcCompat="@drawable/closed"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/btnAcceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCEDER"
+        android:textSize="34sp"
+        app:backgroundTint="#01800F"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+</LinearLayout>
